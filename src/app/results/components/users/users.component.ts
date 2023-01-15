@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { UsersService } from 'src/app/services/users/users.service';
 import { Subject } from 'rxjs';
 import { ADTSettings } from 'angular-datatables/src/models/settings';
+
+import { UsersService } from '../../services/users/users.service';
 
 @Component({
   selector: 'app-users',
